@@ -76,7 +76,18 @@
 
 <p>Still working on this page, more to come!</p>
 
-  </style>
+<br>
+<br>
+
+<p>Submission Timestamp (Press any Key): <span id="time">-</span></p>
+
+<Script>
+  function getTime(event) {
+  const time = document.getElementById("time");
+  time.firstChild.nodeValue = event.timeStamp;
+}
+document.body.addEventListener("keypress", getTime);
+</Script>
 
 
 <footer>
