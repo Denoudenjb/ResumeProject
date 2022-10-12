@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <title>Agile Coding Resume Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <head>
+
+    <!--Reference Links-->
+    <link rel="stylesheet" href="NavBarCSS.css">
+    <link rel="stylesheet" href="Flexbox.css">
+
+    <!--Navigation Bar-->
+    <nav id='cssmenu'>
+      <div class="logo">
+        <img src="logo-no-background.png" alt="DenoudenLogo">
+      </div>
+      <div id="head-mobile"></div>
+      <div class="button"></div>
+      <ul>
+        <li>
+          <a href="Homepage.Project.html">HOME</a>
+        </li>
+        <li class='active'>
+          <a href="Aboutpage.Project.html">ABOUT</a>
+        </li>
+        <li>
+          <a>PROJECTS</a>
+          <ul>
+            <li>
+              <a href="1st try.HTML">First Resume</a>
+            </li>
+            <li>
+              <a href="Project Resume.html">Project Resume</a>
+            </li>
+            <li>
+              <a href="Sharepoint Nav Bar.html">SP16 NavBar</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Biopage.Project.html">BIO</a>
+        </li>
+        <li>
+          <a href="Videopage.Project.html">VIDEO</a>
+        </li>
+        <li>
+          <a href="Gallerypage.Project.html">GALLERY</a>
+        </li>
+        <li>
+          <a href="Contactpage.Project.html">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+
+  </head>
+ 
+  <body>
+
+<h2 style="color: rgb(0, 0, 0);font-size: 60px;">About Me</h2>
+
+<!--AboutPage Columns-->
+<div class="row">
+  <div class="column" style="background-color:rgb(37, 36, 36); border: thin solid rgb(255, 255, 255)">
+    <h2 style="text-align: center"> <img src="FakeGuy.avif" alt="Not actually me.."  width="600" height="400"></h2>
+    <p>
+      <table style="width:100%">
+        <tr style="text-align: center">
+          <td><pre><strong>NAME</strong>           J. Blake D</pre></td>
+        </tr>
+        <tr style="text-align: center">
+          <td><pre><strong>AGE</strong>              28 Years</pre></td>
+        </tr>
+        <tr style="text-align: center">
+          <td><pre><strong>CITY</strong>               Kansas</pre></td>
+        </tr>
+        <tr style="text-align: center">
+          <td><pre><strong>EXPERIENCE</strong>         1 Year</pre></td>
+        </tr>
+        <tr style="text-align: center">
+          <td><pre><strong>DEGREE</strong>                MID</pre></td>
+        </tr>
+      </table>
+    </p>
+  </div>
+
+<!--Column 2-->
+  <div class="column2" style="background-color:rgb(37, 36, 36); border: thin solid rgb(255, 255, 255)">
+    <h2>Professional Details<hr></h2>
+    <p>
+      <table style="width:100%">
+        <tr>
+          <td><strong>NAME</strong></td>
+          <td>J. Blake D</td>
+          <td><strong>AGE</strong></td>
+          <td>28 Years</td>
+        </tr>
+        <tr>
+          <td><strong>LOCATION</strong></td>
+          <td>Kansas</td>
+          <td><strong>EXPERIENCE</strong></td>
+          <td>Not Much</td>
+        </tr>
+        <tr>
+          <td><strong>DEGREE</strong></td>
+          <td>Innovation Design</td>
+          <td><strong>CAREER LEVEL</strong></td>
+          <td>Mid-level</td>
+        </tr>
+        <tr>
+          <td><strong>PHONE</strong></td>
+          <td>316-555-5555</td>
+          <td><strong>FAX</strong></td>
+          <td>Who Uses that?</td>
+        </tr>
+        <tr>
+          <td><strong>E-MAIL</strong></td>
+          <td>Denoudenjb@yahoo.com</td>
+          <td><strong>WEBSITE</strong></td>
+          <td>GOOGLE.com</td>
+        </tr>
+      </table>
+      <br>
+      <h2>LOREM IPSUM</h2>
+      <hr>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus unde ex, voluptates laboriosam laborum doloribus eos animi blanditiis ducimus voluptatem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, magni nostrum magnam, saepe eaque quas molestias illo sed aliquid suscipit accusamus at perspiciatis culpa reiciendis.</p>
+    </p>
+  </div>
+</div>
+</div>
+
+
+<footer>
+
+  <!--Footer Styling-->
+  <style>
+    footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgb(0, 0, 0);
+      height: auto;
+      width: 100vw;
+      padding-top: 10px;
+      color: rgb(255, 255, 255);
+    }
+
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .footer-content h3 {
+      font-size: 2.1rem;
+      font-weight: 500;
+      text-transform: capitalize;
+      line-height: 15px;
+    }
+
+    .footer-content p {
+      max-width: 500px;
+      margin: 5px auto;
+      line-height: 28px;
+      font-size: 14px;
+      color: #ffffff;
+    }
+
+    .footer-bottom {
+      background: #000;
+      width: 100vw;
+      padding: 10px;
+      padding-bottom: 30px;
+      text-align: center;
+    }
+
+    a .footer-bottom span {
+      text-transform: uppercase;
+      opacity: .4;
+      font-weight: 200;
+    }
+
+    .footer-menu {
+      float: right;
+    }
+
+    .footer-menu ul {
+      display: flex;
+    }
+
+    .footer-menu ul li {
+      padding-right: 10px;
+      display: block;
+    }
+
+    .footer-menu ul li a {
+      color: #cfd2d6;
+      text-decoration: none;
+    }
+
+    .footer-menu ul li a:hover {
+      color: #8d2828;
+    }
+
+    @media (max-width:500px) {
+      .footer-menu ul {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+
+  <!--Footer Text-->
+  <div class="footer-content">
+    <h3>Resume Project</h3>
+    <p>Building a Site to house my Resume/Docs</p>
+  </div>
+
+  <!--Footer Bottom Menu Text-->
+  <div class="footer-bottom">
+    <div class="footer-menu">
+      <ul class="f-menu">
+        <li>
+          <a href="Homepage.Project.html">Home</a>
+        </li>
+        <li>
+          <a href="Homepage.Project.html">About</a>
+        </li>
+        <li>
+          <a href="https://myspace.com/discover/featured">Contact</a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</footer>
+
+</body>
+
+</html>

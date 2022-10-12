@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <title>Agile Coding Resume Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <head>
+
+    <!--Reference Links-->
+    <link rel="stylesheet" href="NavBarCSS.css">
+    <link rel="stylesheet" href="MainContentCSS.css">
+
+    <!--Nav Bar-->
+    <nav id='cssmenu'>
+      <div class="logo">
+        <img src="logo-no-background.png" alt="DenoudenLogo">
+      </div>
+      <div id="head-mobile"></div>
+      <div class="button"></div>
+      <ul>
+        <li class='active'>
+          <a href="Homepage.Project.html">HOME</a>
+        </li>
+        <li>
+          <a href="Aboutpage.Project.html">ABOUT</a>
+        </li>
+        <li>
+          <a>PROJECTS</a>
+          <ul>
+            <li>
+              <a href="1st try.HTML">First Resume</a>
+            </li>
+            <li>
+              <a href="Project Resume.html">Project Resume</a>
+            </li>
+            <li>
+              <a href="Sharepoint Nav Bar.html">SP16 NavBar</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="Biopage.Project.html">BIO</a>
+        </li>
+        <li>
+          <a href="Videopage.Project.html">VIDEO</a>
+        </li>
+        <li>
+          <a href="Gallerypage.Project.html">GALLERY</a>
+        </li>
+        <li>
+          <a href="Contactpage.Project.html">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+
+  </head>
+
+  <body>
+
+    <!--Main Page Content-->
+    <div class="center">
+      <h1 class="glowIn">Agile Coding</h1>
+      <p class="glowIn" style="font-size: 40px;">Jonathon Blake Denouden</p>
+      <p class="glowIn">Wichita State University</p>
+    </div>
+
+    <!--Java for Glowing Text-->
+    <script>
+      var glowInTexts = document.querySelectorAll(".glowIn");
+      glowInTexts.forEach(function(glowInText) {
+        var letters = glowInText.textContent.split("");
+        glowInText.textContent = "";
+        letters.forEach(function(letter, i) {
+          var span = document.createElement("span");
+          span.textContent = letter;
+          span.style.animationDelay = i * 0.05 + "s";
+          glowInText.append(span);
+        });
+      });
+    </script>
+
+    <footer>
+
+      <!--Footer Styling-->
+      <style>
+        footer {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: rgb(0, 0, 0);
+          height: auto;
+          width: 100vw;
+          padding-top: 10px;
+          color: rgb(255, 255, 255);
+        }
+
+        .footer-content {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .footer-content h3 {
+          font-size: 2.1rem;
+          font-weight: 500;
+          text-transform: capitalize;
+          line-height: 15px;
+        }
+
+        .footer-content p {
+          max-width: 500px;
+          margin: 5px auto;
+          line-height: 28px;
+          font-size: 14px;
+          color: #ffffff;
+        }
+
+        .footer-bottom {
+          background: #000;
+          width: 100vw;
+          padding: 10px;
+          padding-bottom: 30px;
+          text-align: center;
+        }
+
+        a .footer-bottom span {
+          text-transform: uppercase;
+          opacity: .4;
+          font-weight: 200;
+        }
+
+        .footer-menu {
+          float: right;
+        }
+
+        .footer-menu ul {
+          display: flex;
+        }
+
+        .footer-menu ul li {
+          padding-right: 10px;
+          display: block;
+        }
+
+        .footer-menu ul li a {
+          color: #cfd2d6;
+          text-decoration: none;
+        }
+
+        .footer-menu ul li a:hover {
+          color: #8d2828;
+        }
+
+        @media (max-width:500px) {
+          .footer-menu ul {
+            display: flex;
+            margin-top: 10px;
+            margin-bottom: 20px;
+          }
+        }
+      </style>
+
+      <!--Footer Text-->
+      <div class="footer-content">
+        <h3>Resume Project</h3>
+        <p>Building a Site to house my Resume/Docs</p>
+      </div>
+
+      <!--Footer Bottom Menu Text-->
+      <div class="footer-bottom">
+        <div class="footer-menu">
+          <ul class="f-menu">
+            <li>
+              <a href="Homepage.Project.html">Home</a>
+            </li>
+            <li>
+              <a href="Homepage.Project.html">About</a>
+            </li>
+            <li>
+              <a href="https://myspace.com/discover/featured">Contact</a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </footer>
+
+  </body>
+
+</html>

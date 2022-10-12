@@ -1,0 +1,26 @@
+/*About-Page Flex Box*/
+body, .usertext {
+    color: #ebe1e1; background: rgb(255, 255, 255);
+    font-family: Chunkfive, sans;
+  }
+  
+  @import url(print.css);
+  @media print {
+    a[href^=http]::after {
+      content: attr(href)
+    }
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .center {
+    height: 200px;
+    position: relative;
+  }
+  
